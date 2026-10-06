@@ -13,8 +13,8 @@ A Claude skill for working with large legal documents without burning your conte
 
 ## Install
 
-- **Claude (web/desktop):** download `legal-pdf-triage.zip` and upload it as a custom skill from the Skills section of Settings.
-- **Claude Code:** copy the `legal-pdf-triage/` folder into `~/.claude/skills/`.
+- **Claude (web/desktop):** click the green **Code** button → **Download ZIP**, then upload that zip as a custom skill from the Skills section of Settings.
+- **Claude Code:** `git clone https://github.com/legal-skill-lab/legal-pdf-triage ~/.claude/skills/legal-pdf-triage`
 - **Claude API:** upload it as a custom skill (see Anthropic's Agent Skills docs).
 
 Requirements: Python 3 and poppler (`pdftotext`). The validity check needs the CourtListener connector enabled.
