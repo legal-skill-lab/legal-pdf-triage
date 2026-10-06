@@ -1,0 +1,3 @@
+*.lpt/
+__pycache__/
+*.pyc
